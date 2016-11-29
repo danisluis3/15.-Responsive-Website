@@ -1,47 +1,16 @@
 .wrapper{
-  background-image: url('images/wallpaper1.jpg');
-  background-repeat: no-repeat;
-  overflow: hidden;
   width: 100%;
-}
-@media screen and (max-width: 1024px){
-    .wrapper{
-        background-size: cover;
-    }
+  overflow: hidden;
+  background: url('images/wallpaper1.jpg') transparent no-repeat center;
 }
 
-@media screen and (max-width: 768px){
-    .wrapper {
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .wrapper{
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .wrapper{
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 240px){
-    .wrapper{
-        background-size: cover;
-    }
-}
-
-/**  navbar --- */
+/*navbar*/
 .headerContainer{
     margin-bottom: 0px;
     padding: 28px 0px;
     border: none;
     background: none;
 }
-
 .headerContainer #logo{
     float: left;
     display: inline-block;
@@ -93,4 +62,3 @@
 .active{
   background: none;
 }
-
