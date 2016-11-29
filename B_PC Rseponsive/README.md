@@ -34,8 +34,15 @@
 [WEBSITE => APPLICATION BOOTSTRAP]
 
     <nav class="headerContainer navbar navbar-default navbar-fixed-top">
-    => tạo ra một div thiết lập css [width,margin,overflow,..]
-    => tạo ra div 2 là định dạng padding cho nội dung chứa bên trong 
+
+    => Tạo ra một div thiết lập css [width,margin,overflow,..]
+    => Tạo ra div 2 là định dạng padding cho nội dung chứa bên trong 
+    => Chú ý:
+
+    +  2 thẻ div tích hợp thành 1
+    +  Có gắng thẻ bootstrap 
+    +> Thẻ div headerContainer định dạng là margin,padding và thêm vào đó khử các thuộc tính bootstrap
+
     * Vì bootstrap hổ trợ thanh nằm trên => navbar => ứng dụng vào + các thuộc tính loại navbar 
 
     <div class="navbar-header">
