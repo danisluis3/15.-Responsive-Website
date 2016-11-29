@@ -1,8 +1,8 @@
 .wrapper{
-  width: 100%;
+  background-image: url('images/wallpaper1.jpg');
+  background-repeat: no-repeat;
   overflow: hidden;
-  background: url(images/wallpaper1.jpg) transparent no-repeat center;
-  background-size: cover;
+  width: 100%;
 }
 @media screen and (max-width: 1024px){
     .wrapper{
@@ -39,5 +39,58 @@
     margin-bottom: 0px;
     padding: 28px 0px;
     border: none;
-    background: none; 
+    background: none;
 }
+
+.headerContainer #logo{
+    float: left;
+    display: inline-block;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+.navRight{
+  float: right;
+  margin-top: 6px;
+}
+.navRightLeft{
+
+}
+.navRight .navRightLeft li{
+  float: left;
+}
+.navRight .navRightLeft li a{
+  padding: 9px 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+#login{
+  padding: 0 20px;
+  line-height: 37px;
+  border-radius: 4px;
+  margin-top: 0;
+  background: #1ab85e;
+  margin-right: 10px;
+}
+#signup{
+  padding: 0 20px;
+  line-height: 37px;
+  border-radius: 4px;
+  margin-top: 0;
+  background: #f1a108;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: #f1a108;
+    background: none;
+}
+.navRight .navRightLeft li a:hover{
+  color: #f1a108;
+}
+#signup:hover, #login:hover{
+  color: #000;
+}
+.active{
+  background: none;
+}
+

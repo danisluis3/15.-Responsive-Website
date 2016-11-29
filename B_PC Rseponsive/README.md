@@ -42,6 +42,7 @@
     +  2 thẻ div tích hợp thành 1
     +  Có gắng thẻ bootstrap 
     +> Thẻ div headerContainer định dạng là margin,padding và thêm vào đó khử các thuộc tính bootstrap
+    +> Sử dụng thẻ div để định nghĩa thuộc tính component (Ánh xạ đến ...)
 
     * Vì bootstrap hổ trợ thanh nằm trên => navbar => ứng dụng vào + các thuộc tính loại navbar 
 
