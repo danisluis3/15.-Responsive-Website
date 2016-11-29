@@ -1,0 +1,35 @@
+.wrapper {
+  background-image: url('images/wallpaper2.jpg');
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100%;
+}
+@media screen and (max-width: 1024px){
+    .wrapper{
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .wrapper {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .wrapper{
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .wrapper{
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 240px){
+    .wrapper{
+        background-size: cover;
+    }
+}

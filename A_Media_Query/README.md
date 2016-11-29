@@ -1,4 +1,5 @@
-    
+[Landing Page]
+
     # Media query là gì?
 
     Như tôi đã giới thiệu ở phần trước Media query là một "công nghệ" được giới thiệu trong Css3. Nguyên tắc nó sử dụng trên thông qua các thông số kích thước màn hình được khai báo thông qua @media
@@ -17,3 +18,15 @@
     - Tablet nhỏ(480 x 640)
     - Iphone(480 x 640)
     - Smart phone nhỏ
+
+
+
+    # Definition CSS
+    -> Between two div => including container(div thứ nhất chứa div 2 mang tính là một tập hợp)
+    -> First Class => margin,widht,overflow
+    -> Second Class => padding 
+    * Second Class => Component => [Copy Css from Photoshop]
+    * Second Class => padding
+
+
+
