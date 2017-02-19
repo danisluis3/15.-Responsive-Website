@@ -10,6 +10,10 @@ p{margin:0;}
 ul{list-style-type: none;}
 a:hover{
 	background-color:transparent;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
 }
 html,body{
 	font-family:'Roboto',sans-serif;
@@ -28,7 +32,140 @@ html,body{
   * @website: lorence@enclave.vn
   */
  .headerContainer{
- 	/** Using container-fluid by bootstrap tutorials -- **/
- 	width: 100%;
- 	overflow: hidden;
+ 	/** 
+	 * width: 100%;
+	 * overflow: hidden;
+ 	 **/
  }
+ .headerInner{
+ 	/** 
+ 	 * margin: 0px 10px;
+ 	 * Replace .headerContainer { padding: 0px 10px; }
+ 	 */
+ }
+ .headerBanner{
+ 	width: 100%;
+  	text-align: center;
+  	margin-bottom: 20px;
+ }
+ .headerBanner .banner{
+ 	//
+ }
+ .headerBanner .banner img{
+ 	width: 100%;
+ 	height: auto;
+ }
+
+/** ----------------- NAVIGATION MENU ------------------**/
+.navContainer{
+	/**
+	 * width: 100%;
+	 * overflow: hidden;
+	 */
+	 background-color: #232989;
+	 margin-top: 10px;
+}
+.navContainer .navInner{
+	/**
+	 * .navContainer{ padding: xpx ypx ; }
+	 * .navInner{ margin: xpx ypx; }
+	 */
+}
+.navInner ul{
+	list-style-type: none;
+	margin:0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #232989;
+
+	margin-left: 14px;
+}
+.navInner ul li{
+	float: left;
+	border-right: 0.2px solid #4c7bd2;
+}
+.navInner ul li a{
+	font-weight: bold;
+	font-size: 13px;
+
+	text-align: center;
+	display: block;
+	color: white;
+	padding: 8px 10px;
+}
+.navInner ul li:first-child{
+	padding-right: 10px;
+}
+.navInner ul li:first-child a{
+	font-size: 24px;
+	margin: -8px;
+}
+/**
+ * We need to attend customize icon home => all of tag 
+ * It's not effectively 
+ */
+ .navInner ul li:hover{
+ 	background-color: #07398e;
+ }
+
+.titleInner{
+	/**
+	 * .navContainer{ padding: xpx ypx ; }
+	 * .navInner{ margin: xpx ypx; }
+	 */
+}
+.titleInner ul{
+	list-style-type: none;
+	margin:0px;
+	padding: 0px;
+	overflow: hidden;
+	margin-left: 14px;
+}
+.titleInner ul li{
+	float: left;
+}
+.titleInner ul li a{
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	color: #888888;
+	padding: 4px 6px;
+}
+.titleInner ul li:first-child a{
+	color:red;
+}
+.wrapperContainer{
+	/**
+	 * width: 100%;
+	 * overflow: hidden;
+	 */
+	 margin-top: 6px;
+}
+.wrapperContainer .wrapperInner{
+	/**
+	 * .navContainer{ padding: xpx ypx ; }
+	 * .navInner{ margin: xpx ypx; }
+	 */
+}
+.content{
+	width: 100%;
+  	text-align: center;
+}
+.mainContent #review{
+	margin-bottom: 15px;
+	text-align: left;
+}
+.a{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color:black;
+}
+.mainContent #line{
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom: 12px;
+}
+.wrapperInner .content .mainSidebar{
+}
+@media screen and (max-width: 1024px){
+}
