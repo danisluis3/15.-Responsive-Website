@@ -3,6 +3,8 @@
 /**
  * @author: Lorence
  * Part1: Writting CSS to reset a lot of default components
+ * Website: https://www.templatemonster.com/demo/52055.html;
+ * Website: https://www.templatemonster.com/demo/61124.html
  */
 h4, h5, h6, h1, h2, h3 {margin-top:0;}
 ul,ol{margin:0;}
@@ -23,33 +25,20 @@ html,body{
 	width: 100%;
 }
 /**
- * .header => .headerLeft ... => @media screen and (max-width: * 800px) => .headerRight
- * Notice that: Not using % for margin or padding. 
- * => .banner
+ * @Author: Lorence
+ * @Purpose: Design Website Template;
  */
- /**
-  * @author: lorence
-  * @website: lorence@enclave.vn
-  */
+
  .headerContainer{
- 	/** 
-	 * width: 100%;
-	 * overflow: hidden;
- 	 **/
  }
  .headerInner{
- 	/** 
- 	 * margin: 0px 10px;
- 	 * Replace .headerContainer { padding: 0px 10px; }
- 	 */
+ 	width: 100%;
+ 	overflow: hidden;
  }
  .headerBanner{
  	width: 100%;
   	text-align: center;
   	margin-bottom: 20px;
- }
- .headerBanner .banner{
- 	//
  }
  .headerBanner .banner img{
  	width: 100%;
@@ -57,21 +46,11 @@ html,body{
  }
 
 /** ----------------- NAVIGATION MENU ------------------**/
-.navContainer{
-	/**
-	 * width: 100%;
-	 * overflow: hidden;
-	 */
+.navigationInner{
 	 background-color: #232989;
 	 margin-top: 10px;
 }
-.navContainer .navInner{
-	/**
-	 * .navContainer{ padding: xpx ypx ; }
-	 * .navInner{ margin: xpx ypx; }
-	 */
-}
-.navInner ul{
+.navigationInner ul{
 	list-style-type: none;
 	margin:0px;
 	padding: 0px;
@@ -80,11 +59,11 @@ html,body{
 
 	margin-left: 14px;
 }
-.navInner ul li{
+.navigationInner ul li{
 	float: left;
 	border-right: 0.2px solid #4c7bd2;
 }
-.navInner ul li a{
+.navigationInner ul li a{
 	font-weight: bold;
 	font-size: 13px;
 
@@ -93,26 +72,20 @@ html,body{
 	color: white;
 	padding: 8px 10px;
 }
-.navInner ul li:first-child{
+.navigationInner ul li:first-child{
 	padding-right: 10px;
+	padding-left: 10px;
 }
-.navInner ul li:first-child a{
+.navigationInner ul li:first-child a{
 	font-size: 24px;
 	margin: -8px;
 }
-/**
- * We need to attend customize icon home => all of tag 
- * It's not effectively 
- */
- .navInner ul li:hover{
+ .navigationInner ul li:hover{
  	background-color: #07398e;
  }
 
 .titleInner{
-	/**
-	 * .navContainer{ padding: xpx ypx ; }
-	 * .navInner{ margin: xpx ypx; }
-	 */
+	margin-top: 1px;
 }
 .titleInner ul{
 	list-style-type: none;
@@ -134,40 +107,44 @@ html,body{
 .titleInner ul li:first-child a{
 	color:red;
 }
+/** ----------------- MAIN WEBSITE ------------------**/
+/**
+  * Body Website: Two Part;
+  * - Part 1: Main post of website;
+  * - Part 2: Sidebar of website;
+  */
 .wrapperContainer{
-	/**
-	 * width: 100%;
-	 * overflow: hidden;
-	 */
-	 margin-top: 6px;
+	margin-top: 2px;
 }
 .wrapperContainer .wrapperInner{
-	/**
-	 * .navContainer{ padding: xpx ypx ; }
-	 * .navInner{ margin: xpx ypx; }
-	 */
+	margin: 0;
+	padding: 0;
 }
-.content{
-	width: 100%;
-  	text-align: center;
-}
-.mainContent #review{
-	margin-bottom: 15px;
+.postCommon div{
+	margin-bottom: 10px;
 	text-align: left;
 }
-.mainContent #review img{
-	margin-right: 10px;
+.postCommon div p:nth-child(1){
+	/** To do **/
 }
-.a{
-	font-family: sans-serif;
-	font-weight: bold;
+.postCommon div p:nth-child(2){
+	text-align: justify-all;
+}
+.postCommon div p img{
+	float: left;
+	width: 95px;
+	height: 75px;
+
+	margin-right: 10px
+}
+.postCommon div p a{
+	font-family: 'Roboto',sans-serif;
+	font-weight: 300;
 	font-size: 13px;
 	color:black;
 }
-.mainContent #line{	
-	border-bottom: 1px solid #eeeeee;
-	margin-bottom: 15px;
-}
+
+
 .mainContent #post{
 	margin-left: 10px;
 }
@@ -189,4 +166,3 @@ html,body{
 
 	margin-top: 4px;
 }
-.viewContent 
