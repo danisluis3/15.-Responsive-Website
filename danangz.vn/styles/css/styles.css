@@ -21,28 +21,16 @@ html,body{
 	font-family:'Roboto',sans-serif;
 	font-size:100%;
 	background:#fff;
-
 	width: 100%;
 }
 /**
  * @Author: Lorence
  * @Purpose: Design Website Template;
  */
-
- .headerContainer{
- }
- .headerInner{
- 	width: 100%;
- 	overflow: hidden;
- }
- .headerBanner{
- 	width: 100%;
-  	text-align: center;
-  	margin-bottom: 20px;
- }
- .headerBanner .banner img{
+ .banner img{
  	width: 100%;
  	height: auto;
+ 	margin-left: 35px;
  }
 
 /** ----------------- NAVIGATION MENU ------------------**/
