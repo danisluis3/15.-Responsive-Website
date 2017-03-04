@@ -11,7 +11,6 @@ ul,ol{margin:0;}
 p{margin:0;}
 ul{list-style-type: none;}
 a:hover{
-	background-color:transparent;
 	text-decoration: none;
 }
 a{
@@ -36,123 +35,106 @@ html,body{
  	height: auto;
  }
 /** ----------------- NAVIGATION MENU ------------------**/
-.navigationInner{
-	 background-color: #232989;
-	 margin-top: 10px;
+.navBar{
+	margin-top: 10px;
+	background-color: #255ab5;
 }
-.navigationInner ul{
-	list-style-type: none;
-	margin:0px;
-	padding: 0px;
-	overflow: hidden;
-	background-color: #232989;
-
-	margin-left: 14px;
+.nav .home{
+	color:white;
 }
-.navigationInner ul li{
-	float: left;
-	border-right: 0.2px solid #4c7bd2;
+.navBar div ul li{
+	border-right: 1px solid #4c7bd2;
 }
-.navigationInner ul li a{
-	font-weight: bold;
-	font-size: 13px;
-
-	text-align: center;
-	display: block;
-	color: white;
-	padding: 8px 10px;
+.navBar div ul li:nth-child(1){
+	border-left: 1px solid #4c7bd2;	
 }
-.navigationInner ul li:first-child{
-	padding-right: 10px;
-	padding-left: 10px;
+.navBar div ul li:nth-child(10){
+	border-right: none;	
 }
-.navigationInner ul li:first-child a{
-	font-size: 24px;
-	margin: -8px;
+.navBar div ul li a{
+	color:white;
+	font-size: 15px;
+	font-family: 'Roboto',arial;
+	font-weight: 500;
 }
- .navigationInner ul li:hover{
- 	background-color: #07398e;
- }
-
-.titleInner{
-	margin-top: 1px;
+.navBar div ul li a:hover{
+	background-color: #1a4385 !important;
+	color:white;
 }
-.titleInner ul{
+/** ----------------- SUBSYSTEM NAVIGATION ------------------**/
+.subMenu{
+	margin-top: 6px;
+}
+.subMenu ul{
 	list-style-type: none;
 	margin:0px;
 	padding: 0px;
 	overflow: hidden;
 	margin-left: 14px;
 }
-.titleInner ul li{
+.subMenu ul li{
 	float: left;
 }
-.titleInner ul li a{
+.subMenu ul li a{
 	font-size: 12px;
 	text-align: center;
 	display: block;
 	color: #888888;
 	padding: 4px 6px;
 }
-.titleInner ul li:first-child a{
+.subMenu ul li:first-child a{
 	color:red;
 }
-/** ----------------- MAIN WEBSITE ------------------**/
 /**
   * Body Website: Two Part;
   * - Part 1: Main post of website;
   * - Part 2: Sidebar of website;
   */
-.wrapperContainer{
-	margin-top: 2px;
-}
-.wrapperContainer .wrapperInner{
-	margin: 0;
-	padding: 0;
-}
-.postCommon div{
-	margin-bottom: 10px;
-	text-align: left;
-}
-.postCommon div p:nth-child(1){
-	/** To do **/
-}
-.postCommon div p:nth-child(2){
-	text-align: justify-all;
-}
-.postCommon div p img{
-	float: left;
-	width: 95px;
-	height: 75px;
-
-	margin-right: 10px
-}
-.postCommon div p a{
-	font-family: 'Roboto',sans-serif;
-	font-weight: 300;
-	font-size: 13px;
-	color:black;
-}
-
-
-.mainContent #post{
-	margin-left: 10px;
-}
-.mainContent #post p img{
-	width: 100%;
-	height: auto;
-}
-.mainContent #post .title{
-	margin-top: 6px;
-	color: #d41b21;
-	font-size: 24px;
-	text-align: left;
-}
-.mainContent #post .description{
-	text-align: left;
-	font-family:'Roboto',sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-
+.content div div div div:nth-child(2) h2{
 	margin-top: 4px;
+	color: red;
+}
+.content div div div div div{
+	margin-bottom: 10px;
+}
+.content div div div div .line{
+	border: 0.1em solid #eeeeee;
+}
+.content div div div div .line:nth-child(8){
+	border: none;
+}
+.content div div div div div div:nth-child(2){
+}
+.content div div div div div div img{
+	margin-top: 3px;
+}
+.content div div div div div div p{
+	color:black;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/** Current Post of Website **/
+.content div div .post2{
+	margin-top: 6px;
+}
+.content div div .post2 div img{
+	padding: 15px;
+}
+.content div div .post2 div p{
+	padding: 0px 15px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+/** ROW 3 **/
+.content div div .line{
+	border-top: 0.1em solid #eeeeee;
+	margin-top: 10px;
+}
+.content div div div h2{
+	color:red;
 }
