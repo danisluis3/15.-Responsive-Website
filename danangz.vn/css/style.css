@@ -213,3 +213,214 @@ html,body{
 .content div div .post4 div:nth-child(3) .line:nth-child(12){
 	border: none;
 }
+
+/** ROW 5 **/
+.content div div .post5{
+	margin-top: 1px;
+}
+.content div div .post5 img{
+	border-top: 0.5px solid #eeeeee;
+	padding-top: 12px;
+}
+.content div div .post5 h3{
+	text-align: justify;
+    text-justify: inter-word;
+
+    font-size: 18px;
+    color: black;
+    margin-top: 6px;
+    margin-right: 50px;
+}
+.content div div .post5 ul{
+	margin-left: -38px;
+	margin-right: 48px;
+}
+.content div div .post5 ul li{
+	font-size: 14px;
+
+	text-align: justify;
+    text-justify: inter-word;
+    padding: 4px 4px;
+}
+.content div div .post5 ul #line{
+	border-bottom: 0.5px solid #eeeeee;
+	margin-bottom: 5px;
+}
+.content div div .post5 ul #line:nth-child(8){
+	border-bottom:none;
+}
+.content div div .post5 div:nth-child(2){
+}
+.content div div .post5 div:nth-child(2) h2{
+	margin-top: 13px;
+	padding: 10px;
+	border-bottom: 0.5px solid #eeeeee;
+
+	color:#1f488e;
+}
+.content div div .post5 div:nth-child(2) div img{
+	border:none;
+	margin-top: -9px;
+	margin-left: 12px;
+}
+.content div div .post5 div:nth-child(2) div:nth-child(2) h3{
+	color:black;
+	margin-left: 16px;
+	line-height: 1.3em;
+}
+.content div div .post5 div:nth-child(2) div:nth-child(2) p{
+	margin-left: 16px;
+
+	font-weight: normal;
+	color:black;
+	font-size: 14px;
+}
+.content div div .post5 div:nth-child(2) div:nth-child(3){
+	margin-top: -4px;
+	margin-left: -8px;
+}
+.content div div .post5 div:nth-child(2) div:nth-child(3) ul{
+	margin-top: -2px;
+}
+.content div div .post5 div:nth-child(2) div:nth-child(3) ul li{
+	border-bottom: 0.5px solid #eeeeee;
+	margin-bottom: 10px;
+}
+.content div div .post5 div:nth-child(2) div:nth-child(3) ul li:nth-child(4){
+	border-bottom: none;
+}
+.content div div .post5 div:nth-child(2) div:nth-child(3) ul li h4{
+
+}
+.content div div .post5 div:nth-child(2) div:nth-child(3) ul li p{
+	font-weight: normal;
+	font-size: 13px;
+}
+/**
+ * POST 6 
+ * Template website eductional 
+ */
+.content div div .post6{
+	margin-top: 1px;
+}
+.content div div .post6 div h3{
+	color:#1f488e;
+	font-weight: bold;
+	font-size: 24px;
+
+	padding-bottom: 6px;
+	border-bottom: 2px solid #1f488e;
+}
+.content div div .post6 div:nth-child(2) .thumbnailx{
+	position: relative;
+}
+.content div div .post6 div:nth-child(2) div .post-content{
+	bottom:0;
+    left:0;
+    position: absolute;
+
+    margin-left: 12px;
+    margin-right: 10px;
+}
+.content div div .post6 div:nth-child(2) div .post-content{
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/** Post 7 **/
+.content div div .post7{
+	margin-top: 14px;
+	background-color: #f1f1f1;
+}
+.content div div .post7 .linetop{
+	border-bottom: 2px solid #1f488e;
+}
+.content div div .post7 div:nth-child(2){
+	background-color: #f1f1f1;
+}
+.content div div .post7 div:nth-child(2) div h3{
+	color:#39488e;
+	margin-top: 10px;
+	margin-left: 32px;
+	margin-bottom: 2px;
+}
+.content div div .post7 div:nth-child(2) div img{
+	border-top: 0.5px solid #cccccc;
+	padding-top: 10px;
+}
+.content div div .post7 div:nth-child(2) div h4{
+	margin-top: 10px;
+	margin-left: 32px;
+}
+.content div div .post7 div:nth-child(2) div ul{
+	font-size: 13px;
+}
+.content div div .post7 div:nth-child(2) div ul li{
+	margin-right: 14px;
+	margin-bottom: 6px;
+}
+
+/** Post 8 **/
+.content div div .post8{
+	margin-top: 14px;
+}
+.content div div .post8 div:nth-child(1) h3{
+	color:#1f488e;
+	font-weight: bold;
+	font-size: 24px;
+}
+.content div div .post8 .linetop{
+	border-bottom: 2px solid #1f488e;
+}
+.content div div .post8 div:nth-child(2){
+	background-color: green;
+}
+.content div div .post8 div:nth-child(3){
+
+}
+
+/** Side bar in the right **/
+#sidebar{
+	margin: 0px;
+	padding:0px;
+}
+/* Style the tab */
+#sidebar div:nth-child(1){
+	overflow: hidden;
+    background-color: #ffffff;
+    border-top: 2px solid #a0a5aa;
+}
+/* Style the links inside the tab */
+#sidebar div:nth-child(1) a {
+    float: left;
+    display: block;
+    color: #adb4c8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 13px;
+    font-weight: bold;
+}
+/* Change background color of links on hover */
+#sidebar div:nth-child(1) a:hover {
+    color:white;
+	background-color:red;
+}
+/* Create an active/current tablink class */
+#sidebar div:nth-child(1) a:focus, .active {
+    color:white;
+	background-color:red;
+}
+#sidebar div:nth-child(1) a:active,a:visited{
+	color:white;
+	background-color:red;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    background-color: #f4f4f4;
+}
