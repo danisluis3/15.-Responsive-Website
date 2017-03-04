@@ -27,12 +27,14 @@ html,body{
  * @Author: Lorence
  * @Purpose: Design Website Template;
  */
+ /** ----------------- BANNER HEADER ------------------**/
+ .banner{
+ 	margin-top: 10px;
+ }
  .banner img{
  	width: 100%;
  	height: auto;
- 	margin-left: 35px;
  }
-
 /** ----------------- NAVIGATION MENU ------------------**/
 .navigationInner{
 	 background-color: #232989;
