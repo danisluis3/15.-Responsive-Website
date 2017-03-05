@@ -362,22 +362,26 @@ html,body{
 }
 
 /** Post 8 **/
-.content div div .post8{
+.content div:nth-child(2) .post8{
 	margin-top: 14px;
+	margin-left: 10px;
 }
-.content div div .post8 div:nth-child(1) h3{
+.content div:nth-child(2) .post8 div:nth-child(1) h3{
 	color:#1f488e;
 	font-weight: bold;
 	font-size: 24px;
-}
-.content div div .post8 .linetop{
+	padding-bottom: 6px;
 	border-bottom: 2px solid #1f488e;
 }
-.content div div .post8 div:nth-child(2){
-	background-color: green;
+.content div:nth-child(2) .post8 div:nth-child(3) div{
+	background-color: #f4f4f4;
 }
-.content div div .post8 div:nth-child(3){
+.content div:nth-child(2) .post8 div:nth-child(3) div p{
+	margin-top: 4px;
 
+	font-weight: bold;
+	font-size: 14px;
+	color: black;
 }
 
 /** Side bar in the right **/
@@ -389,8 +393,13 @@ html,body{
 #sidebar div:nth-child(1){
 	overflow: hidden;
     background-color: #ffffff;
-    border-top: 2px solid #a0a5aa;
+    
+    margin-left: 10px;
 }
+#sidebar .linetop{
+	border: 2px solid #a0a5aa;
+}
+
 /* Style the links inside the tab */
 #sidebar div:nth-child(1) a {
     float: left;
@@ -423,4 +432,110 @@ html,body{
     padding: 6px 12px;
     border-top: none;
     background-color: #f4f4f4;
+    margin-left: 10px;
+}
+.currentPost{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.currentPost div:nth-child(1) img{
+	border: 1px solid #cccccc;
+}
+.currentPost div:nth-child(2) img{
+	border: 1px solid #cccccc;
+	margin-left: 46px;
+	margin-top: 10px;
+	background-color: red;
+}
+.currentPost div:nth-child(3) h3{
+	color:black;
+	font-size: 20px;
+	margin-left: 46px;
+	margin-right: 10px;
+	margin-top: 6px;
+}
+.currentPost div:nth-child(3) p{
+	margin-left: 46px;
+	margin-right: 16px;
+	margin-top: 6px;
+
+	font-weight: normal;
+	font-size: 14px;
+}
+.currentPost div:nth-child(4) ul{
+	margin-left: 10px;
+}
+/** ----------------- BOTTOM MENU ------------------**/
+.bottomBar{
+	margin-top: 10px;
+	background-color: #353535;
+}
+.bottomBar  div ul li:nth-child(1){
+	margin-left: 0px;
+}
+.bottomBar  div ul li a{
+	color:white;
+	font-size: 15px;
+	font-family: 'Roboto',arial;
+	font-weight: 500;
+}
+.bottomBar div ul li a:hover{
+	background-color: #353535;
+	color:white;
+}
+.descriptionBottomBar{
+	background-color: #c2c2c2;
+}
+.descriptionBottomBar div ul:nth-child(1) li a{
+	color:black;
+}
+.descriptionBottomBar div ul:nth-child(1) li a:hover{
+	background-color: #c2c2c2;
+	color: black;
+}
+.descriptionBottomBar div ul:nth-child(2) li a:hover{
+	background-color: #c2c2c2;
+	color: black;
+}
+.descriptionBottomBar div ul:nth-child(1) li a span{
+	margin-right: 6px;
+}
+.descriptionBottomBar div ul:nth-child(2) li a{
+	color:black;
+}
+.descriptionBottomBar div ul:nth-child(2) li a span{
+	margin-left: 6px;
+}
+
+/** Post 9 **/
+.content div .post9{
+}
+.content div .post9 div:nth-child(1) h3{
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 26px;
+	margin-left: 30px;
+}
+.content div .post9 div:nth-child(1) p{
+	font-size: 14px;
+	font-weight: normal;
+
+	text-align: justify;
+    text-justify: inter-word;
+    margin-left: 30px;
+    margin-right: 56px;
+    margin-bottom: 40px;
+    line-height: 1.6em;
+}
+.content div .post9 div:nth-child(2) p{
+	margin-top: 26px;
+	margin-left: 30px;
+	margin-right: 10px;
+
+	font-size: 14px;
+	font-weight: normal;
+
+	text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6em;
 }
