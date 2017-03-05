@@ -602,3 +602,87 @@ html,body{
     line-height: 1.6em;
 }
 /** -------------- DETAIL NEW ------------------- **/
+.content_detail div div .title{
+	margin-top: 2px;
+}
+.content_detail div div .title h2{
+	font-size: 24px;
+	color: #c80716;
+	margin-left: 16px;
+	margin-top: 8px;
+}
+.content_detail div div .subtitle h2{
+	font-size: 26px;
+	margin-left: 16px;
+}
+.content_detail div div .line{
+	border-top: 1px solid #cccccc;
+	margin-bottom: 16px;
+}
+.content_detail div div .like{
+	margin-top: -12px;
+}
+.content_detail div div .like ul:nth-child(1) li a{
+	background-color: white;
+	color:black;
+}
+.content_detail div div .like ul:nth-child(1) li a:hover{
+	background-color: white;
+	color:black;
+}
+.content_detail div div .like ul:nth-child(2){
+	margin-right: 0px;
+}
+.content_detail div div .like ul:nth-child(2) button{
+	background-color: #4764b3;
+	color:white;
+	border:none;
+
+	margin-top: 14px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.content_detail div div .detail{
+	border:1px solid #dddddd;
+	background-color: #f2f2f2;
+	padding: 10px;
+	line-height: 1.4em;
+
+	margin-left: -2px;
+}
+.content_detail div div .detail p{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.content_detail div .post9{
+}
+.content_detail div .post9 div:nth-child(1) h3{
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 26px;
+	margin-left: 30px;
+}
+.content_detail div .post9 div:nth-child(1) p{
+	font-size: 14px;
+	font-weight: normal;
+
+	text-align: justify;
+    text-justify: inter-word;
+    margin-left: 30px;
+    margin-right: 56px;
+    margin-bottom: 40px;
+    line-height: 1.6em;
+}
+.content_detail div .post9 div:nth-child(2) p{
+	margin-top: 26px;
+	margin-left: 30px;
+	margin-right: 10px;
+
+	font-size: 14px;
+	font-weight: normal;
+
+	text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6em;
+}
