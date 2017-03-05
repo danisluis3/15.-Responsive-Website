@@ -539,3 +539,66 @@ html,body{
     text-justify: inter-word;
     line-height: 1.6em;
 }
+
+/** -------------- NEW ------------------- **/
+.content_new div div .title{
+	margin-top: 2px;
+}
+.content_new div div .title h2{
+	font-size: 24px;
+	color: #c80716;
+	margin-left: 16px;
+	margin-top: 8px;
+}
+.content_new div div .new{
+	margin-bottom: 17px;
+}
+.content_new div div .line{
+	border-top: 1px solid #cccccc;
+	margin-bottom: 16px;
+}
+.content_new div div .new div:nth-child(2) h2{
+	font-size: 18px;
+	font-weight: bold;
+
+	margin-top: 4px;
+}
+.content_new div div .new div:nth-child(2) p{
+	font-weight: normal;
+	font-size: 14px;
+
+	text-align: justify;
+    text-justify: inter-word;
+}
+.content_new div .post9{
+}
+.content_new div .post9 div:nth-child(1) h3{
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 26px;
+	margin-left: 30px;
+}
+.content_new div .post9 div:nth-child(1) p{
+	font-size: 14px;
+	font-weight: normal;
+
+	text-align: justify;
+    text-justify: inter-word;
+    margin-left: 30px;
+    margin-right: 56px;
+    margin-bottom: 40px;
+    line-height: 1.6em;
+}
+.content_new div .post9 div:nth-child(2) p{
+	margin-top: 26px;
+	margin-left: 30px;
+	margin-right: 10px;
+
+	font-size: 14px;
+	font-weight: normal;
+
+	text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6em;
+}
+/** -------------- DETAIL NEW ------------------- **/
