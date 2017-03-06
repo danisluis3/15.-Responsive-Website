@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+/**
+ * @author: Lorence
+ * Part1: Writting CSS to reset a lot of default components
+ * Website: https://www.templatemonster.com/demo/52055.html;
+ * Website: https://www.templatemonster.com/demo/61124.html
+ */
+h4, h5, h6, h1, h2, h3 {margin-top:0;}
+ul,ol{margin:0;}
+p{margin:0;}
+ul{list-style-type: none;}
+a:hover{
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	font-family:'Roboto',sans-serif;
+	font-size:100%;
+	background:#fff;
+	width: 100%;
+}
+/**
+ * @Author: Lorence
+ * @Purpose: Design Website Template;
+ */
+ /** ----------------- BODY OF WEBSITE ------------------**/
+ .body{
+ 	margin: 0px;
+ 	padding: 0px;
+
+ 	font-family: "Helvetica Neue",Helvetica;
+ }
+#drawerLeft{
+ 	background-color: #151718;
+ 	width: 200px;
+ 	height: 100%;
+ 	display: block;
+ 	position: absolute;
+ 	left: -200px;
+ 	top: 0px;
+
+ 	transition: left 0.3s linear;
+ }
+#drawerLeft ul{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+#drawerLeft ul li{
+ 	list-style: none;
+ }
+#drawerLeft.visible{
+	left: 0;
+	transition: left 0.3s linear;	
+}
+
+ #drawerLeft ul li a{
+ 	background-color: #1C1E1F;
+ 	color: #ccc;
+ 	border-bottom: 1px solid #111;
+ 	display: block;
+ 	width: 180px;
+ 	padding: 10px;
+
+ 	text-decoration: none;
+ }
