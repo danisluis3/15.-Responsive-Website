@@ -66,3 +66,27 @@ html,body{
 
  	text-decoration: none;
  }
+
+
+#drawer-btn{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 15px;
+
+	cursor: pointer;
+	margin: 20px;
+}
+
+#drawer-btn span{
+	height: 1px;
+	background-color: #111;
+	margin-bottom: 5px;
+	display: block;
+}
+#drawer-btn span:nth-child(2){
+	width:75%;
+}
+#drawer-btn span:nth-child(3){
+	width: 50%;
+}

@@ -13,3 +13,13 @@
 <p align="center">
     <img src="https://github.com/danisluis3/15.-Responsive-Website/blob/version6/4.png">
 </p>
+
+    - Techincal about using Jquery create event for website
+<p align="center">
+    <img src="https://github.com/danisluis3/15.-Responsive-Website/blob/version6/5.png">
+</p>
+<p align="center">
+    <img src="https://github.com/danisluis3/15.-Responsive-Website/blob/version6/6.png">
+</p>
+
+
