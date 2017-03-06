@@ -1,4 +1,8 @@
 @charset "utf-8";
+@font-face {
+    font-family: HelveticaNeue;
+    src: url('../fonts/HelveticaNeue.ttf');
+}
 /* CSS Document */
 /**
  * @author: Lorence
@@ -30,18 +34,19 @@ html,body{
  .body{
  	margin: 0px;
  	padding: 0px;
-
- 	font-family: "Helvetica Neue",Helvetica;
+ 	font-family: "HelveticaNeue",HelveticaNeue;
  }
+.wrapper .navContainer{
+	/** Todo **/
+}
 #drawerLeft{
- 	background-color: #151718;
+ 	background-color: #272727;
  	width: 200px;
  	height: 100%;
  	display: block;
  	position: absolute;
  	left: -200px;
  	top: 0px;
-
  	transition: left 0.3s linear;
  }
 #drawerLeft ul{
@@ -52,7 +57,7 @@ html,body{
  	list-style: none;
  }
 #drawerLeft.visible{
-	left: 0;
+	left: 0px;
 	transition: left 0.3s linear;	
 }
 
@@ -63,10 +68,8 @@ html,body{
  	display: block;
  	width: 180px;
  	padding: 10px;
-
  	text-decoration: none;
  }
-
 
 #drawer-btn{
 	display: inline-block;
@@ -83,10 +86,4 @@ html,body{
 	background-color: #111;
 	margin-bottom: 5px;
 	display: block;
-}
-#drawer-btn span:nth-child(2){
-	width:75%;
-}
-#drawer-btn span:nth-child(3){
-	width: 50%;
 }
