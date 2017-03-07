@@ -23,25 +23,151 @@ a{
 html,body{
 	font-family:'Roboto',sans-serif;
 	font-size:100%;
-	background:#fff;
+	background-color: #303641;
 	width: 100%;
 }
 /**
  * @Author: Lorence
  * @Purpose: Design Website Template;
+ * Let 's start 
+ * CSS for title navigation menu left
  */
- /** ----------------- BODY OF WEBSITE ------------------**/
- .body{
- 	margin: 0px;
- 	padding: 0px;
- 	font-family: "HelveticaNeue",HelveticaNeue;
- }
-.wrapper{
+#avatar div:nth-child(1){
+	margin-left: 0px;
+	margin-top: 8px;
+}
+#avatar div:nth-child(1) img{
+	width: 80px;
+	height: 80px;
+}
+#avatar div:nth-child(2){
+	margin-top: 12px;
+	text-align: center;
+}
+#avatar div:nth-child(2) h4{
+	margin-top: 4px;
+	margin-left: -24px;
+	font-size: 16px;
+	color: rgb(199, 237, 233);
+	text-shadow: rgb(3, 3, 3) 4px 4px 4px;
+}
+#avatar div:nth-child(2) p{
+	margin-left: -24px;
+	color: rgb(97, 97, 97);
+	font-size: 14px;
+	text-shadow: rgb(224, 224, 224) 1px 1px 0px;
+}
+/**
+ * CSS for navigation menu left
+ */
+#menu{
+	background-color: #303641; 	
+}
+#menu h2{
+	color: rgb(239, 247, 247);
+	font-size: 24px;
+	text-shadow: rgba(255, 255, 255, 0.0980392) -1px -1px 1px, rgba(0, 0, 0, 0.498039) 1px 1px 1px;
+}
+#menu ul{
+	list-style: none;
+	margin: 10px;
+}
+#menu ul li{
 	background-color: #303641;
- }
- /** ============ TOP MENU NAVIGATION DRAWER ============== **/
+	border:none;
+}
+#menu .title{
+	color: rgb(206, 240, 234);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-shadow: rgba(255, 255, 255, 0.0980392) -1px -1px 1px, rgba(0, 0, 0, 0.498039) 1px 1px 1px;
+}
+#menu ul li a{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: rgb(206, 240, 234);
+	font-size: 14px;
+	text-shadow: rgba(255, 255, 255, 0.0980392) -1px -1px 1px, rgba(0, 0, 0, 0.498039) 1px 1px 1px;
+}
+#menu ul li a .a{
+	margin-right: 12px;
+}
+.subMenu{
+	margin-top: 0px;
+}
+.subMenu li{
+	margin-left: -12px;
+	padding: 2px;
+}
+/** ==> Javscript : create menu level 2 **/
+#DashboardOk{
+	display: none;
+}
+#FormsOk{
+	display: none;	
+}
+#UIElementsOk{
+	display: none;	
+}
+#WidgetsOk{
+	display: none;	
+}
+#PagesOk{
+	display: none;	
+}
+#ChartsOk{
+	display: none;	
+}
+#TablesOk{
+	display: none;	
+}
+#MapsOk{
+	display: none;	
+}
+#TypographyOk{
+	display: none;	
+}
+#MenuLevelsOk{
+	display: none;	
+}
+.badge-error {
+  background-color: #b94a48;
+}
+.badge-error:hover {
+  background-color: #953b39;
+}
+.badge-warning {
+  background-color: #f89406;
+}
+.badge-warning:hover {
+  background-color: #c67605;
+}
+.badge-success {
+  background-color: #468847;
+}
+.badge-success:hover {
+  background-color: #356635;
+}
+.badge-info {
+  background-color: #3a87ad;
+}
+.badge-info:hover {
+  background-color: #2d6987;
+}
+.badge-inverse {
+  background-color: #333333;
+}
+.badge-inverse:hover {
+  background-color: #1a1a1a;
+}
+
+/**
+ * CSS for top menu
+ */
 #topMenu{
- 	background-color: #303641; 	
+ 	background-color: #303641;
+ 	margin-top: 16px;
+ 	margin-bottom: 16px;
 }
 #drawer-btn{
 	width: 24px;
@@ -52,7 +178,7 @@ html,body{
 }
 #drawer-btn span{
 	height: 3px;
-	background-color: white;
+	background-color: rgb(206, 240, 234);
 	margin-bottom: 4px;
 	display: block;
 }
@@ -67,8 +193,12 @@ html,body{
   padding: 10px;
   pointer-events: none;
 }
-.right-addon .glyphicon { right: 0px;}
-.right-addon input { padding-right: 30px; }
+.right-addon .glyphicon { 
+	right: 0px;
+}
+.right-addon input { 
+	padding-right: 30px; 
+}
 .inner-addon input[type=text] {
     width: 220px;
     -webkit-transition: width 0.4s ease-in-out;
@@ -78,33 +208,16 @@ html,body{
     width: 330px;
 }
 #rightTopMenu{
-	background-color: red;
+	margin-top: 10px;
 }
+#rightTopMenu div i{
+	color: rgb(206, 240, 234);
+	font-size: 24px;
+	text-shadow: rgba(255, 255, 255, 0.0980392) -1px -1px 1px, rgba(0, 0, 0, 0.498039) 1px 1px 1px; 
 
-.wrapper .navContainer{
-	/** Todo **/
+	margin-top:2px;
+	padding-left: 12px;
 }
-#drawerLeft{
- 	width: 200px;
- 	height: 100%;
- 	display: block;
- }
-#drawerLeft ul{
- 	margin: 0px;
- 	padding: 0px;
- }
-#drawerLeft ul li{
- 	list-style: none;
- }
-#drawerLeft.visible{
-	left: 0px;
+#content{
+	background-color: white;
 }
-
- #drawerLeft ul li a{
- 	color: #ccc;
- 	border-bottom: 1px solid #111;
- 	display: block;
- 	width: 180px;
- 	padding: 10px;
- 	text-decoration: none;
- }
