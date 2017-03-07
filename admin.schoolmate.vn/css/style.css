@@ -25,6 +25,7 @@ html,body{
 	font-size:100%;
 	background-color: #303641;
 	width: 100%;
+	overflow:hidden;
 }
 /**
  * @Author: Lorence
@@ -32,6 +33,35 @@ html,body{
  * Let 's start 
  * CSS for title navigation menu left
  */
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#wrapper.toggled {
+  padding-left: 250px;
+}
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #303641; 	
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+  overflow:hidden;
+}
+/* Sidebar Styles */
 #avatar div:nth-child(1){
 	margin-left: 0px;
 	margin-top: 8px;
@@ -160,7 +190,9 @@ html,body{
 .badge-inverse:hover {
   background-color: #1a1a1a;
 }
-
+@media(min-width:768px) {
+	/** Piority website template **/
+}	
 /**
  * CSS for top menu
  */
