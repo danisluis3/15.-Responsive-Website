@@ -15,6 +15,514 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i" rel="stylesheet">
 	</head>
 	<body>
+		<!-- Template for add new record -->
+		<div id="modal" class="modal">
+		  <form class="modal-content animate" action="" method="post">
+                <div style="padding-left: 46px; padding-right: 46px; padding-bottom: 46px;">
+                	<div>
+			  			<h3>Template</h3>
+			  			<span onclick="document.getElementById('modal').style.display='none'" class="close">&times;</span>
+			  		</div>
+
+			  		<div class="form-group row">
+					  <label for="example-text-input" class="col-2 col-form-label">Text</label>
+					  <div class="col-10">
+					    <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+					  </div>
+					</div>
+
+			  		<div class="form-group row">
+					  <label for="example-search-input" class="col-2 col-form-label">Search</label>
+					  <div class="col-10">
+					    <input class="form-control" type="search" value="How do I shoot web" id="example-search-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-email-input" class="col-2 col-form-label">Email</label>
+					  <div class="col-10">
+					    <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-url-input" class="col-2 col-form-label">URL</label>
+					  <div class="col-10">
+					    <input class="form-control" type="url" value="https://getbootstrap.com" id="example-url-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
+					  <div class="col-10">
+					    <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					    <label for="exampleInputFile">File input</label>
+					    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+					    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+				  	</div>
+
+				  	<fieldset class="form-group row">
+					    <legend>Radio buttons</legend>
+					    <div class="form-check">
+					      <label class="form-check-label">
+					        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+					        Option one is this and that&mdash;be sure to include why it's great
+					      </label>
+					    </div>
+					    <div class="form-check">
+					    <label class="form-check-label">
+					        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+					        Option two can be something else and selecting it will deselect option one
+					      </label>
+					    </div>
+					    <div class="form-check disabled">
+					    <label class="form-check-label">
+					        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+					        Option three is disabled
+					      </label>
+					    </div>
+					  </fieldset>
+
+					<div class="form-group row">
+					  <label for="example-password-input" class="col-2 col-form-label">Password</label>
+					  <div class="col-10">
+					    <input class="form-control" type="password" value="hunter2" id="example-password-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-number-input" class="col-2 col-form-label">Number</label>
+					  <div class="col-10">
+					    <input class="form-control" type="number" value="42" id="example-number-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
+					  <div class="col-10">
+					    <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-date-input" class="col-2 col-form-label">Date</label>
+					  <div class="col-10">
+					    <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-month-input" class="col-2 col-form-label">Month</label>
+					  <div class="col-10">
+					    <input class="form-control" type="month" value="2011-08" id="example-month-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-week-input" class="col-2 col-form-label">Week</label>
+					  <div class="col-10">
+					    <input class="form-control" type="week" value="2011-W33" id="example-week-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-time-input" class="col-2 col-form-label">Time</label>
+					  <div class="col-10">
+					    <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-color-input" class="col-2 col-form-label">Color</label>
+					  <div class="col-10">
+					    <input class="form-control" type="color" value="#563d7c" id="example-color-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					    <label for="exampleSelect1">Example select</label>
+					    <select class="form-control" id="exampleSelect1">
+					      <option>1</option>
+					      <option>2</option>
+					      <option>3</option>
+					      <option>4</option>
+					      <option>5</option>
+					    </select>
+					</div>
+
+					  <div class="form-group row">
+					    <label for="exampleSelect2">Example multiple select</label>
+					    <select multiple class="form-control" id="exampleSelect2">
+					      <option>1</option>
+					      <option>2</option>
+					      <option>3</option>
+					      <option>4</option>
+					      <option>5</option>
+					    </select>
+					</div>
+
+					<div class="form-group row">
+					    <label for="exampleTextarea">Example textarea</label>
+					    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+					</div>
+
+					<div class="form-check row">
+					    <label class="form-check-label">
+					      <input type="checkbox" class="form-check-input">
+					      Administrater
+					    </label>
+					</div>
+
+                    <div class="form-group row">
+                    	<button class="form-control" type="submit">Đăng sách</button>	
+                    </div>
+                </div>
+            </form>
+		</div>
+
+
+		<!-- Template for edit new record -->
+		<div id="modal-edit" class="modal-edit">
+		  <form class="modal-content animate" action="" method="post">
+                <div style="padding-left: 46px; padding-right: 46px; padding-bottom: 46px;">
+                	<div>
+			  			<h3>Template Edit Information</h3>
+			  			<span onclick="document.getElementById('modal-edit').style.display='none'" class="close">&times;</span>
+			  		</div>
+
+			  		<div class="form-group row">
+					  <label for="example-text-input" class="col-2 col-form-label">Text</label>
+					  <div class="col-10">
+					    <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+					  </div>
+					</div>
+
+			  		<div class="form-group row">
+					  <label for="example-search-input" class="col-2 col-form-label">Search</label>
+					  <div class="col-10">
+					    <input class="form-control" type="search" value="How do I shoot web" id="example-search-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-email-input" class="col-2 col-form-label">Email</label>
+					  <div class="col-10">
+					    <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-url-input" class="col-2 col-form-label">URL</label>
+					  <div class="col-10">
+					    <input class="form-control" type="url" value="https://getbootstrap.com" id="example-url-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
+					  <div class="col-10">
+					    <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					    <label for="exampleInputFile">File input</label>
+					    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+					    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+				  	</div>
+
+				  	<fieldset class="form-group row">
+					    <legend>Radio buttons</legend>
+					    <div class="form-check">
+					      <label class="form-check-label">
+					        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+					        Option one is this and that&mdash;be sure to include why it's great
+					      </label>
+					    </div>
+					    <div class="form-check">
+					    <label class="form-check-label">
+					        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+					        Option two can be something else and selecting it will deselect option one
+					      </label>
+					    </div>
+					    <div class="form-check disabled">
+					    <label class="form-check-label">
+					        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+					        Option three is disabled
+					      </label>
+					    </div>
+					  </fieldset>
+
+					<div class="form-group row">
+					  <label for="example-password-input" class="col-2 col-form-label">Password</label>
+					  <div class="col-10">
+					    <input class="form-control" type="password" value="hunter2" id="example-password-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-number-input" class="col-2 col-form-label">Number</label>
+					  <div class="col-10">
+					    <input class="form-control" type="number" value="42" id="example-number-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
+					  <div class="col-10">
+					    <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-date-input" class="col-2 col-form-label">Date</label>
+					  <div class="col-10">
+					    <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-month-input" class="col-2 col-form-label">Month</label>
+					  <div class="col-10">
+					    <input class="form-control" type="month" value="2011-08" id="example-month-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-week-input" class="col-2 col-form-label">Week</label>
+					  <div class="col-10">
+					    <input class="form-control" type="week" value="2011-W33" id="example-week-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-time-input" class="col-2 col-form-label">Time</label>
+					  <div class="col-10">
+					    <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-color-input" class="col-2 col-form-label">Color</label>
+					  <div class="col-10">
+					    <input class="form-control" type="color" value="#563d7c" id="example-color-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					    <label for="exampleSelect1">Example select</label>
+					    <select class="form-control" id="exampleSelect1">
+					      <option>1</option>
+					      <option>2</option>
+					      <option>3</option>
+					      <option>4</option>
+					      <option>5</option>
+					    </select>
+					</div>
+
+					  <div class="form-group row">
+					    <label for="exampleSelect2">Example multiple select</label>
+					    <select multiple class="form-control" id="exampleSelect2">
+					      <option>1</option>
+					      <option>2</option>
+					      <option>3</option>
+					      <option>4</option>
+					      <option>5</option>
+					    </select>
+					</div>
+
+					<div class="form-group row">
+					    <label for="exampleTextarea">Example textarea</label>
+					    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+					</div>
+
+					<div class="form-check row">
+					    <label class="form-check-label">
+					      <input type="checkbox" class="form-check-input">
+					      Administrater
+					    </label>
+					</div>
+
+                    <div class="form-group row">
+                    	<button class="form-control" type="submit">Đăng sách</button>	
+                    </div>
+                </div>
+            </form>
+		</div>
+
+		<!-- Template for delete new record -->
+		<div id="modal-del" class="modal-del">
+		  <form class="modal-content animate" action="" method="post">
+                <div style="padding-left: 46px; padding-right: 46px; padding-bottom: 46px;">
+                	<div>
+			  			<h3>Template Delete Information</h3>
+			  			<span onclick="document.getElementById('modal-del').style.display='none'" class="close">&times;</span>
+			  		</div>
+
+			  		<div class="form-group row">
+					  <label for="example-text-input" class="col-2 col-form-label">Text</label>
+					  <div class="col-10">
+					    <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+					  </div>
+					</div>
+
+			  		<div class="form-group row">
+					  <label for="example-search-input" class="col-2 col-form-label">Search</label>
+					  <div class="col-10">
+					    <input class="form-control" type="search" value="How do I shoot web" id="example-search-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-email-input" class="col-2 col-form-label">Email</label>
+					  <div class="col-10">
+					    <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-url-input" class="col-2 col-form-label">URL</label>
+					  <div class="col-10">
+					    <input class="form-control" type="url" value="https://getbootstrap.com" id="example-url-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
+					  <div class="col-10">
+					    <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					    <label for="exampleInputFile">File input</label>
+					    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+					    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+				  	</div>
+
+				  	<fieldset class="form-group row">
+					    <legend>Radio buttons</legend>
+					    <div class="form-check">
+					      <label class="form-check-label">
+					        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+					        Option one is this and that&mdash;be sure to include why it's great
+					      </label>
+					    </div>
+					    <div class="form-check">
+					    <label class="form-check-label">
+					        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+					        Option two can be something else and selecting it will deselect option one
+					      </label>
+					    </div>
+					    <div class="form-check disabled">
+					    <label class="form-check-label">
+					        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+					        Option three is disabled
+					      </label>
+					    </div>
+					  </fieldset>
+
+					<div class="form-group row">
+					  <label for="example-password-input" class="col-2 col-form-label">Password</label>
+					  <div class="col-10">
+					    <input class="form-control" type="password" value="hunter2" id="example-password-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-number-input" class="col-2 col-form-label">Number</label>
+					  <div class="col-10">
+					    <input class="form-control" type="number" value="42" id="example-number-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
+					  <div class="col-10">
+					    <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-date-input" class="col-2 col-form-label">Date</label>
+					  <div class="col-10">
+					    <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-month-input" class="col-2 col-form-label">Month</label>
+					  <div class="col-10">
+					    <input class="form-control" type="month" value="2011-08" id="example-month-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-week-input" class="col-2 col-form-label">Week</label>
+					  <div class="col-10">
+					    <input class="form-control" type="week" value="2011-W33" id="example-week-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-time-input" class="col-2 col-form-label">Time</label>
+					  <div class="col-10">
+					    <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					  <label for="example-color-input" class="col-2 col-form-label">Color</label>
+					  <div class="col-10">
+					    <input class="form-control" type="color" value="#563d7c" id="example-color-input">
+					  </div>
+					</div>
+
+					<div class="form-group row">
+					    <label for="exampleSelect1">Example select</label>
+					    <select class="form-control" id="exampleSelect1">
+					      <option>1</option>
+					      <option>2</option>
+					      <option>3</option>
+					      <option>4</option>
+					      <option>5</option>
+					    </select>
+					</div>
+
+					  <div class="form-group row">
+					    <label for="exampleSelect2">Example multiple select</label>
+					    <select multiple class="form-control" id="exampleSelect2">
+					      <option>1</option>
+					      <option>2</option>
+					      <option>3</option>
+					      <option>4</option>
+					      <option>5</option>
+					    </select>
+					</div>
+
+					<div class="form-group row">
+					    <label for="exampleTextarea">Example textarea</label>
+					    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+					</div>
+
+					<div class="form-check row">
+					    <label class="form-check-label">
+					      <input type="checkbox" class="form-check-input">
+					      Administrater
+					    </label>
+					</div>
+
+                    <div class="form-group row">
+                    	<button class="form-control" type="submit">Đăng sách</button>	
+                    </div>
+                </div>
+            </form>
+		</div>
+
 		<div id="wrapper" class="toggled">
 			<div id="sidebar-wrapper">
 				<div class="row" id="avatar">
@@ -181,7 +689,7 @@
 						<div>
 							<div class="row">
 								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-									<a onclick="document.getElementById('postBook').style.display='block'" class="btn btn-primary" style="color:white; font-weight: bold;" href="">Add new record</a>
+									<a id="btn-display-add" class="btn btn-primary" style="color:white; font-weight: bold;" href="#" data-toggle="modal" data-target="">Add new record</a>
 								</div>
 							</div>
 							<table class="table table-responsive table-bordered table-hover">
@@ -209,8 +717,8 @@
 								      	<td>vuongluis</td>
 								      	<td>••••••••••</td>
 								      	<td class="actionBtn">
-								      		<a href=""><span class="edit btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></span></a>
-											<a href=""><span class="delete btn btn-warning"><i class="fa fa-trash" aria-hidden="true"></i></span></a>
+								      		<a id="btn-display-edit" data-toggle="modal-edit" data-target="" href="#"><span class="edit btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i></span></a>
+											<a id="btn-display-del" data-toggle="modal-del" data-target="" href="#"><span class="delete btn btn-warning"><i class="fa fa-trash" aria-hidden="true"></i></span></a>
 								      	</td>
 								    </tr>
 								    <tr>
@@ -357,59 +865,10 @@
 				</div>
 			</div>	
 		</div> <!-- wrapper -->
-		<div id="postBook" class="modal">
-                <form class="modal-content animate" action="action_page.php">
-	                    <span onclick="document.getElementById('postBook').style.display='none'" class="close" title="Bạn đang đóng chức năng upload sách">&times;</span>
-	                    <h3>Thông tin sách <i class="fa fa-book"></i></h3>
-	                    <p class="line"></p>
-	                    <div class="container">
-
-	                        <label><b  style="font-family: 'Roboto'; font-weight: 300; color: #adadad;">Tên sách</b></label>
-	                        <input style="margin-top: -8px;" type="text" placeholder=" " name="uname" required>
-
-	                        <label><b style="font-family: 'Roboto'; font-weight: 300; color: #adadad;">Tác giả</b></label>
-	                        <input style="margin-top: -8px;" type="password" placeholder=" " name="psw" required>
-
-	                        <label><b style="font-family: 'Roboto'; font-weight: 300; color: #adadad;">Thể loại</b></label>
-	                        <select style="height: 35px; border: 1px solid #f7f7f7; margin-left: 10px; margin-bottom: 15px; margin-top: 10px;">
-	                            <option>Sách Kinh Doanh - Marketing</option>
-	                            <option>Sách Tài Chính - Ngân Hàng</option>
-	                            <option>Sách Ngoại Ngữ</option>
-	                            <option>Sách Khoa Học - Tự Nhiên</option>
-	                            <option>Sách Văn Hóa - Nghệ Thuật</option>
-	                            <option>Sách Kinh Tế - Quản Lý</option>
-	                            <option>Sách Công Nghệ Công Tin</option>
-	                        </select>
-
-	                        <br>
-	                        <label><b style="font-family: 'Roboto'; font-weight: 300; color: #adadad; margin-top: 5px;">Ngày đăng: </b></label>
-	                        <input style="height: 35px; border: 1px solid #f7f7f7;" type="date" value="">
-	                        
-	                        <br>
-	                        <div class="img">
-	                            <img src="styles/images/cleancode.jpg" alt="upload img">
-	                        </div>  
-	                        <label><b style="font-family: 'Roboto'; font-weight: 300; color: #adadad; margin-top: 5px;">Hình ảnh: </b></label>
-	                        <input type="button" style="margin-top: 15px; height: 35px;" value="Chọn ảnh">
-
-	                        <br>
-	                        <label><b style="font-family: 'Roboto'; font-weight: 300; color: #adadad; margin-top: 5px;">Mô tả: </b></label>
-	                        <br>
-	                        <textarea cols="55" rows="4" style="border: 1px solid #f7f7f7;"></textarea>
-
-	                        <br>
-	                        <label><b style="font-family: 'Roboto'; font-weight: 300; color: #adadad; margin-top: 5px;">Chi tiết: </b></label>
-	                        <br>
-	                        <textarea cols="55" rows="6" style="border: 1px solid #f7f7f7;"></textarea>
-
-	                        <button type="submit" style="color: #00668b; width:50%;">Đăng sách</button>
-	                    </div>
-	                </form>
-	        </div>  <!-- postBook -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/71b5e27098.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		
 		<!-- Tutorial for instruction -->
 		<script type="text/javascript">
 			$(document).ready(function(){
@@ -418,6 +877,22 @@
 					e.preventDefault();
 					$('#wrapper').toggleClass('toggled');
 				});
+
+				$('#btn-display-add').click(function(event) {
+					event.preventDefault();
+					$('#modal').css('display', 'block');
+				});
+
+				$('#btn-display-edit').click(function(event) {
+					event.preventDefault();
+					$('#modal-edit').css('display', 'block');
+				});
+
+				$('#btn-display-del').click(function(event) {
+					event.preventDefault();
+					$('#modal-del').css('display', 'block');
+				});
+
 			});
 
 			$(document).ready(function(){
@@ -470,10 +945,25 @@
 					/** Todo **/
 					$('#MenuLevelsOk').slideToggle();
 				});
-			});			
-		</script>
-		<script type="text/javascript">
-			
+			});
+
+			// Get the modal
+			var modal = document.getElementById('modal');
+			var modaledit = document.getElementById('modal-edit');
+			var modaldel = document.getElementById('modal-del');
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			    if (event.target == modal) {
+			        modal.style.display = "none";
+			    }
+			    if (event.target == modaledit) {
+			        modaledit.style.display = "none";
+			    }
+			    if (event.target == modaldel) {
+			        modaldel.style.display = "none";
+			    }
+			}			
 		</script>
 	</body>
 </html>
